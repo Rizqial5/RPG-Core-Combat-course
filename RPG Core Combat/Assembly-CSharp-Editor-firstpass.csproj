@@ -271,23 +271,14 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
         <HintPath>D:/Game/Unity/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="GitHub.Logging">
+        <HintPath>D:/Bagus/Belajar/Udemy/Unity/RPG Core Combat course/RPG Core Combat/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
         <HintPath>D:/Bagus/Belajar/Udemy/Unity/RPG Core Combat course/RPG Core Combat/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
         <HintPath>D:/Bagus/Belajar/Udemy/Unity/RPG Core Combat course/RPG Core Combat/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-        <HintPath>D:/Bagus/Belajar/Udemy/Unity/RPG Core Combat course/RPG Core Combat/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="unityplastic">
-        <HintPath>D:/Bagus/Belajar/Udemy/Unity/RPG Core Combat course/RPG Core Combat/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.Logging">
-        <HintPath>D:/Bagus/Belajar/Udemy/Unity/RPG Core Combat course/RPG Core Combat/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
-    </Reference>
-    <Reference Include="sfw.net">
-        <HintPath>D:/Bagus/Belajar/Udemy/Unity/RPG Core Combat course/RPG Core Combat/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Unity.45">
         <HintPath>D:/Bagus/Belajar/Udemy/Unity/RPG Core Combat course/RPG Core Combat/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
@@ -295,8 +286,17 @@
     <Reference Include="GitHub.UnityShim">
         <HintPath>D:/Bagus/Belajar/Udemy/Unity/RPG Core Combat course/RPG Core Combat/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
     </Reference>
+    <Reference Include="sfw.net">
+        <HintPath>D:/Bagus/Belajar/Udemy/Unity/RPG Core Combat course/RPG Core Combat/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
+    </Reference>
     <Reference Include="GitHub.Api.45">
         <HintPath>D:/Bagus/Belajar/Udemy/Unity/RPG Core Combat course/RPG Core Combat/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+        <HintPath>D:/Bagus/Belajar/Udemy/Unity/RPG Core Combat course/RPG Core Combat/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+        <HintPath>D:/Bagus/Belajar/Udemy/Unity/RPG Core Combat course/RPG Core Combat/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
         <HintPath>D:/Bagus/Belajar/Udemy/Unity/RPG Core Combat course/RPG Core Combat/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
