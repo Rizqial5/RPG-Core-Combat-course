@@ -46,6 +46,8 @@
      <Compile Include="Assets\Script\Core\FollowCamera.cs" />
      <Compile Include="Assets\Script\Combat\Fighter.cs" />
      <Compile Include="Assets\Script\Control\PatrolPath.cs" />
+     <Compile Include="Assets\Script\Cinematics\CinematicTrigger.cs" />
+     <Compile Include="Assets\Script\Cinematics\CinematicControlRemover.cs" />
      <None Include="Assets\Asset Packs\Synty - Polygon Student Sample\README - Usage Rights for these assets.txt" />
      <None Include="Assets\Asset Packs\Animations by Explosive\README - Usage Rights for these assets 1.txt" />
     <Reference Include="UnityEngine">
@@ -665,6 +667,12 @@
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
         <HintPath>D:/Bagus/Belajar/Udemy/Unity/RPG Core Combat course/RPG Core Combat/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>D:/Bagus/Belajar/Udemy/Unity/RPG Core Combat course/RPG Core Combat/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+        <HintPath>D:/Bagus/Belajar/Udemy/Unity/RPG Core Combat course/RPG Core Combat/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

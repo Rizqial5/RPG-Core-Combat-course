@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2022-02-15T21:05:47.802+07:00
-  initializedAtString: 2022-02-15T18:27:10.621+07:00
-  localBranches: []
+  lastUpdatedAtString: 2022-02-17T20:14:14.647+07:00
+  initializedAtString: 2022-02-17T10:50:21.966+07:00
+  localBranches:
+  - name: main
+    tracking: origin/main
   remoteBranches:
   - name: origin/main
     tracking: '[None]'
@@ -28,8 +30,14 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys: []
-    values: []
+    keys:
+    - main
+    values:
+    - name: main
+      remote:
+        name: origin
+        url: https://github.com/Rizqial5/RPG-Core-Combat-course.git
+      trackingBranch: main
   remoteConfigBranches:
     keys:
     - origin
