@@ -655,8 +655,14 @@
     <Reference Include="UnityEditor.TestRunner">
         <HintPath>D:/Bagus/Belajar/Udemy/Unity/RPG Core Combat course/RPG Core Combat/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+        <HintPath>D:/Bagus/Belajar/Udemy/Unity/RPG Core Combat course/RPG Core Combat/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>D:/Bagus/Belajar/Udemy/Unity/RPG Core Combat course/RPG Core Combat/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>D:/Bagus/Belajar/Udemy/Unity/RPG Core Combat course/RPG Core Combat/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
         <HintPath>D:/Bagus/Belajar/Udemy/Unity/RPG Core Combat course/RPG Core Combat/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
