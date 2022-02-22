@@ -37,9 +37,11 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\Control\AIController.cs" />
+     <Compile Include="Assets\Script\Saving\SavingSystem.cs" />
      <Compile Include="Assets\Script\Core\ActionScheduler.cs" />
      <Compile Include="Assets\Script\Combat\CombatTarget.cs" />
      <Compile Include="Assets\Script\SceneManagement\Portal.cs" />
+     <Compile Include="Assets\Script\Saving\SavingWrapper.cs" />
      <Compile Include="Assets\Script\Core\IAction.cs" />
      <Compile Include="Assets\Script\Core\Health.cs" />
      <Compile Include="Assets\Script\Control\PlayerController.cs" />
@@ -51,8 +53,6 @@
      <Compile Include="Assets\Script\Cinematics\CinematicControlRemover.cs" />
      <Compile Include="Assets\Script\Core\persistentObject.cs" />
      <Compile Include="Assets\Script\Control\PatrolPath.cs" />
-     <Compile Include="Assets\Script\Saving\SavingWrapper.cs" />
-     <Compile Include="Assets\Script\Saving\SavingSystem.cs" />
      <None Include="Assets\Asset Packs\Synty - Polygon Student Sample\README - Usage Rights for these assets.txt" />
      <None Include="Assets\Asset Packs\Animations by Explosive\README - Usage Rights for these assets 1.txt" />
     <Reference Include="UnityEngine">
