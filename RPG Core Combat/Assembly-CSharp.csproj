@@ -53,6 +53,8 @@
      <Compile Include="Assets\Script\Cinematics\CinematicControlRemover.cs" />
      <Compile Include="Assets\Script\Core\persistentObject.cs" />
      <Compile Include="Assets\Script\Control\PatrolPath.cs" />
+     <Compile Include="Assets\Script\Saving\SerializeableVector3.cs" />
+     <Compile Include="Assets\Script\Saving\SaveableEntity.cs" />
      <None Include="Assets\Asset Packs\Synty - Polygon Student Sample\README - Usage Rights for these assets.txt" />
      <None Include="Assets\Asset Packs\Animations by Explosive\README - Usage Rights for these assets 1.txt" />
     <Reference Include="UnityEngine">
