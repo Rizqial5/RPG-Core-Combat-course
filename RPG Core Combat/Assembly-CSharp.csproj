@@ -42,9 +42,10 @@
      <Compile Include="Assets\Script\Core\ActionScheduler.cs" />
      <Compile Include="Assets\Script\Combat\CombatTarget.cs" />
      <Compile Include="Assets\Script\SceneManagement\Portal.cs" />
-     <Compile Include="Assets\Script\Saving\SavingWrapper.cs" />
+     <Compile Include="Assets\Script\SceneManagement\SavingWrapper.cs" />
      <Compile Include="Assets\Script\Core\IAction.cs" />
      <Compile Include="Assets\Script\Core\Health.cs" />
+     <Compile Include="Assets\Script\Saving\ISaveable.cs" />
      <Compile Include="Assets\Script\Control\PlayerController.cs" />
      <Compile Include="Assets\Script\Movement\Mover.cs" />
      <Compile Include="Assets\Script\Core\FollowCamera.cs" />

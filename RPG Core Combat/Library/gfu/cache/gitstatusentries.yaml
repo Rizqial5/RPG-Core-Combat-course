@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2022-02-26T15:13:34.438+07:00
-  initializedAtString: 2022-02-26T12:51:45.180+07:00
+  lastUpdatedAtString: 2022-03-01T14:46:57.137+07:00
+  initializedAtString: 2022-03-01T10:06:46.675+07:00
   entries:
   - path: RPG Core Combat\Assembly-CSharp.csproj
     fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Assembly-CSharp.csproj
@@ -22,12 +22,66 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: RPG Core Combat\Assets\Game\Character\Player.prefab
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Assets\Game\Character\Player.prefab
+    projectPath: Assets\Game\Character\Player.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RPG Core Combat\Assets\Game\Weapon.meta
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Assets\Game\Weapon.meta
+    projectPath: Assets\Game\Weapon.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Assets\Game\Weapon\equippedSword.prefab
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Assets\Game\Weapon\equippedSword.prefab
+    projectPath: Assets\Game\Weapon\equippedSword.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Assets\Game\Weapon\equippedSword.prefab.meta
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Assets\Game\Weapon\equippedSword.prefab.meta
+    projectPath: Assets\Game\Weapon\equippedSword.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: RPG Core Combat\Assets\Scenes\Sandbox.unity
     fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Assets\Scenes\Sandbox.unity
     projectPath: Assets\Scenes\Sandbox.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: RPG Core Combat\Assets\Script\Combat\Fighter.cs
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Assets\Script\Combat\Fighter.cs
+    projectPath: Assets\Script\Combat\Fighter.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RPG Core Combat\Assets\Script\Core\Health.cs
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Assets\Script\Core\Health.cs
+    projectPath: Assets\Script\Core\Health.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RPG Core Combat\Assets\Script\Movement\Mover.cs
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Assets\Script\Movement\Mover.cs
+    projectPath: Assets\Script\Movement\Mover.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RPG Core Combat\Assets\Script\Saving\ISaveable.cs
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Assets\Script\Saving\ISaveable.cs
+    projectPath: Assets\Script\Saving\ISaveable.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Assets\Script\Saving\ISaveable.cs.meta
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Assets\Script\Saving\ISaveable.cs.meta
+    projectPath: Assets\Script\Saving\ISaveable.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: RPG Core Combat\Assets\Script\Saving\SaveableEntity.cs
     fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Assets\Script\Saving\SaveableEntity.cs
     projectPath: Assets\Script\Saving\SaveableEntity.cs
@@ -45,6 +99,18 @@ MonoBehaviour:
     projectPath: Assets\Script\Saving\SavingWrapper.cs
     originalPath: 
     indexStatus: 0
+    workTreeStatus: 5
+  - path: RPG Core Combat\Assets\Script\Saving\SavingWrapper.cs.meta
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Assets\Script\Saving\SavingWrapper.cs.meta
+    projectPath: Assets\Script\Saving\SavingWrapper.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RPG Core Combat\Assets\Script\SceneManagement\Fade.cs
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Assets\Script\SceneManagement\Fade.cs
+    projectPath: Assets\Script\SceneManagement\Fade.cs
+    originalPath: 
+    indexStatus: 0
     workTreeStatus: 3
   - path: RPG Core Combat\Assets\Script\SceneManagement\Portal.cs
     fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Assets\Script\SceneManagement\Portal.cs
@@ -52,57 +118,105 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: RPG Core Combat\Assets\Script\SceneManagement\SavingWrapper.cs
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Assets\Script\SceneManagement\SavingWrapper.cs
+    projectPath: Assets\Script\SceneManagement\SavingWrapper.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Assets\Script\SceneManagement\SavingWrapper.cs.meta
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Assets\Script\SceneManagement\SavingWrapper.cs.meta
+    projectPath: Assets\Script\SceneManagement\SavingWrapper.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: RPG Core Combat\Library\ArtifactDB
     fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\ArtifactDB
     projectPath: Library\ArtifactDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RPG Core Combat\Library\Artifacts\02\0255644f4c5d3db002906d80b682ff2a
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\02\0255644f4c5d3db002906d80b682ff2a
-    projectPath: Library\Artifacts\02\0255644f4c5d3db002906d80b682ff2a
+  - path: RPG Core Combat\Library\Artifacts\01\010fe11c213b414a1e3268ea5f63717f
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\01\010fe11c213b414a1e3268ea5f63717f
+    projectPath: Library\Artifacts\01\010fe11c213b414a1e3268ea5f63717f
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: RPG Core Combat\Library\Artifacts\04\0467d027a94575038d61a0d1e5c177de
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\04\0467d027a94575038d61a0d1e5c177de
-    projectPath: Library\Artifacts\04\0467d027a94575038d61a0d1e5c177de
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\07\072fcb92e02e5d969e05a53557290151
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\07\072fcb92e02e5d969e05a53557290151
+    projectPath: Library\Artifacts\07\072fcb92e02e5d969e05a53557290151
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: RPG Core Combat\Library\Artifacts\0c\0c12e5bd6913bfb840dd06daea4048ed
     fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\0c\0c12e5bd6913bfb840dd06daea4048ed
     projectPath: Library\Artifacts\0c\0c12e5bd6913bfb840dd06daea4048ed
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RPG Core Combat\Library\Artifacts\0d\0d4af191562552f817bc5f9b54759cef
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\0d\0d4af191562552f817bc5f9b54759cef
+    projectPath: Library\Artifacts\0d\0d4af191562552f817bc5f9b54759cef
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: RPG Core Combat\Library\Artifacts\0f\0f1f41bc66920702d3bfb6071eb6b56e
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\0f\0f1f41bc66920702d3bfb6071eb6b56e
-    projectPath: Library\Artifacts\0f\0f1f41bc66920702d3bfb6071eb6b56e
+  - path: RPG Core Combat\Library\Artifacts\13\139085c7d182626f1e90620e06ccbb8e
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\13\139085c7d182626f1e90620e06ccbb8e
+    projectPath: Library\Artifacts\13\139085c7d182626f1e90620e06ccbb8e
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: RPG Core Combat\Library\Artifacts\10\109abaa82911dbd4371fc7abbca8835c
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\10\109abaa82911dbd4371fc7abbca8835c
-    projectPath: Library\Artifacts\10\109abaa82911dbd4371fc7abbca8835c
+  - path: RPG Core Combat\Library\Artifacts\19\19fd8535956686228dc098bfe12bde9f
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\19\19fd8535956686228dc098bfe12bde9f
+    projectPath: Library\Artifacts\19\19fd8535956686228dc098bfe12bde9f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\1e\1e9e13dd745a686216ea4b477a6c1b08
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\1e\1e9e13dd745a686216ea4b477a6c1b08
+    projectPath: Library\Artifacts\1e\1e9e13dd745a686216ea4b477a6c1b08
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\22\22d2f606afdb8cc25a1cea9560876760
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\22\22d2f606afdb8cc25a1cea9560876760
+    projectPath: Library\Artifacts\22\22d2f606afdb8cc25a1cea9560876760
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\23\23355f9ed2d57ac7b75fdd57f91469df
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\23\23355f9ed2d57ac7b75fdd57f91469df
+    projectPath: Library\Artifacts\23\23355f9ed2d57ac7b75fdd57f91469df
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\23\23434897f53d98730727fd755ad95a50
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\23\23434897f53d98730727fd755ad95a50
+    projectPath: Library\Artifacts\23\23434897f53d98730727fd755ad95a50
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: RPG Core Combat\Library\Artifacts\24\24ad81cfc67fef821cde8b762224c686
     fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\24\24ad81cfc67fef821cde8b762224c686
     projectPath: Library\Artifacts\24\24ad81cfc67fef821cde8b762224c686
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: RPG Core Combat\Library\Artifacts\2c\2c6c497e123158cfbaf216cc5ca7594e
     fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\2c\2c6c497e123158cfbaf216cc5ca7594e
     projectPath: Library\Artifacts\2c\2c6c497e123158cfbaf216cc5ca7594e
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: RPG Core Combat\Library\Artifacts\2c\2cd3fd44e9d1381711d68fab4078f19a
     fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\2c\2cd3fd44e9d1381711d68fab4078f19a
     projectPath: Library\Artifacts\2c\2cd3fd44e9d1381711d68fab4078f19a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RPG Core Combat\Library\Artifacts\2d\2d35733ab2df07252b6dff8022720c2a
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\2d\2d35733ab2df07252b6dff8022720c2a
+    projectPath: Library\Artifacts\2d\2d35733ab2df07252b6dff8022720c2a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -110,125 +224,281 @@ MonoBehaviour:
     fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\30\3029034e799191c9c91f90b1f97a164b
     projectPath: Library\Artifacts\30\3029034e799191c9c91f90b1f97a164b
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: RPG Core Combat\Library\Artifacts\30\309f919ab58c14e4c7f3ed0e8c676532
     fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\30\309f919ab58c14e4c7f3ed0e8c676532
     projectPath: Library\Artifacts\30\309f919ab58c14e4c7f3ed0e8c676532
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RPG Core Combat\Library\Artifacts\39\397733d7ade926b24711dbd9aafc43ff
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\39\397733d7ade926b24711dbd9aafc43ff
+    projectPath: Library\Artifacts\39\397733d7ade926b24711dbd9aafc43ff
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: RPG Core Combat\Library\Artifacts\58\58b082de38213cdb327dc2d5bc10b1bb
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\58\58b082de38213cdb327dc2d5bc10b1bb
-    projectPath: Library\Artifacts\58\58b082de38213cdb327dc2d5bc10b1bb
+  - path: RPG Core Combat\Library\Artifacts\41\418246efa46467091e4f25db5cef0ae2
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\41\418246efa46467091e4f25db5cef0ae2
+    projectPath: Library\Artifacts\41\418246efa46467091e4f25db5cef0ae2
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: RPG Core Combat\Library\Artifacts\5e\5e4dae47bac06faff551affb24298239
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\5e\5e4dae47bac06faff551affb24298239
-    projectPath: Library\Artifacts\5e\5e4dae47bac06faff551affb24298239
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\45\45d14339f993b4d6f5a8d198a945b19b
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\45\45d14339f993b4d6f5a8d198a945b19b
+    projectPath: Library\Artifacts\45\45d14339f993b4d6f5a8d198a945b19b
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: RPG Core Combat\Library\Artifacts\63\630a6c47db7546582933e0b2fb202803
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\63\630a6c47db7546582933e0b2fb202803
-    projectPath: Library\Artifacts\63\630a6c47db7546582933e0b2fb202803
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\49\492d51d77fc7ea0676a5073140c5012c
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\49\492d51d77fc7ea0676a5073140c5012c
+    projectPath: Library\Artifacts\49\492d51d77fc7ea0676a5073140c5012c
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\4d\4d458eaed46cb900bc5a0df5b8e4e99f
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\4d\4d458eaed46cb900bc5a0df5b8e4e99f
+    projectPath: Library\Artifacts\4d\4d458eaed46cb900bc5a0df5b8e4e99f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\4f\4fefeec0cf786b62060a2f2990a97b2d
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\4f\4fefeec0cf786b62060a2f2990a97b2d
+    projectPath: Library\Artifacts\4f\4fefeec0cf786b62060a2f2990a97b2d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\50\508b38b6e857fc0bf6851c42daa4e8d3
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\50\508b38b6e857fc0bf6851c42daa4e8d3
+    projectPath: Library\Artifacts\50\508b38b6e857fc0bf6851c42daa4e8d3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\53\5329d0418cee0af8ae64d299ec7646ca
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\53\5329d0418cee0af8ae64d299ec7646ca
+    projectPath: Library\Artifacts\53\5329d0418cee0af8ae64d299ec7646ca
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\5a\5a1aef81aa3c048756674f155c90d1f4
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\5a\5a1aef81aa3c048756674f155c90d1f4
+    projectPath: Library\Artifacts\5a\5a1aef81aa3c048756674f155c90d1f4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\5d\5daa75a08c24d9183eb97104c7261db4
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\5d\5daa75a08c24d9183eb97104c7261db4
+    projectPath: Library\Artifacts\5d\5daa75a08c24d9183eb97104c7261db4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\5f\5f73ca12be0f9fb673714aba627129b3
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\5f\5f73ca12be0f9fb673714aba627129b3
+    projectPath: Library\Artifacts\5f\5f73ca12be0f9fb673714aba627129b3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: RPG Core Combat\Library\Artifacts\63\6393d3770794c1ebc3783c73fbf0ed8f
     fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\63\6393d3770794c1ebc3783c73fbf0ed8f
     projectPath: Library\Artifacts\63\6393d3770794c1ebc3783c73fbf0ed8f
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RPG Core Combat\Library\Artifacts\69\69cba3459b2b4ffbf6011c479b674fb6
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\69\69cba3459b2b4ffbf6011c479b674fb6
+    projectPath: Library\Artifacts\69\69cba3459b2b4ffbf6011c479b674fb6
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\6b\6b4ac2923512cc0314a8018ff9b4de5c
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\6b\6b4ac2923512cc0314a8018ff9b4de5c
+    projectPath: Library\Artifacts\6b\6b4ac2923512cc0314a8018ff9b4de5c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\6d\6deceae4188d6dade30d8cb2df9a774c
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\6d\6deceae4188d6dade30d8cb2df9a774c
+    projectPath: Library\Artifacts\6d\6deceae4188d6dade30d8cb2df9a774c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: RPG Core Combat\Library\Artifacts\71\71445a516c399d65e4d1beaf40ae142b
     fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\71\71445a516c399d65e4d1beaf40ae142b
     projectPath: Library\Artifacts\71\71445a516c399d65e4d1beaf40ae142b
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: RPG Core Combat\Library\Artifacts\76\7648e935709f8abdc31438c03a917f70
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\76\7648e935709f8abdc31438c03a917f70
-    projectPath: Library\Artifacts\76\7648e935709f8abdc31438c03a917f70
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: RPG Core Combat\Library\Artifacts\73\735c7588fd6680e3a00bdbf1b1611450
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\73\735c7588fd6680e3a00bdbf1b1611450
+    projectPath: Library\Artifacts\73\735c7588fd6680e3a00bdbf1b1611450
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\74\744cf6e4ebb338342e4f55e2fdfcc4b8
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\74\744cf6e4ebb338342e4f55e2fdfcc4b8
+    projectPath: Library\Artifacts\74\744cf6e4ebb338342e4f55e2fdfcc4b8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\7e\7e7ea65edbc822570055444eacb46a47
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\7e\7e7ea65edbc822570055444eacb46a47
+    projectPath: Library\Artifacts\7e\7e7ea65edbc822570055444eacb46a47
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: RPG Core Combat\Library\Artifacts\86\866d2346c90509755761afcc3dd3821d
     fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\86\866d2346c90509755761afcc3dd3821d
     projectPath: Library\Artifacts\86\866d2346c90509755761afcc3dd3821d
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: RPG Core Combat\Library\Artifacts\87\87264b1f83fa25a1f5c41512ffddb0c1
     fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\87\87264b1f83fa25a1f5c41512ffddb0c1
     projectPath: Library\Artifacts\87\87264b1f83fa25a1f5c41512ffddb0c1
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: RPG Core Combat\Library\Artifacts\89\89967380bee8a3a8cf1f9ab0c6bbb673
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\89\89967380bee8a3a8cf1f9ab0c6bbb673
-    projectPath: Library\Artifacts\89\89967380bee8a3a8cf1f9ab0c6bbb673
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: RPG Core Combat\Library\Artifacts\95\95f9d9d6c8004b8facdd858631856417
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\95\95f9d9d6c8004b8facdd858631856417
-    projectPath: Library\Artifacts\95\95f9d9d6c8004b8facdd858631856417
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: RPG Core Combat\Library\Artifacts\8b\8b74496f74292be2c83980cf9a19b0b6
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\8b\8b74496f74292be2c83980cf9a19b0b6
+    projectPath: Library\Artifacts\8b\8b74496f74292be2c83980cf9a19b0b6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\8c\8c15a525989c69270da4f9094a639913
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\8c\8c15a525989c69270da4f9094a639913
+    projectPath: Library\Artifacts\8c\8c15a525989c69270da4f9094a639913
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\91\9171abd17fd1649f6b2901c3a2ae73b3
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\91\9171abd17fd1649f6b2901c3a2ae73b3
+    projectPath: Library\Artifacts\91\9171abd17fd1649f6b2901c3a2ae73b3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\97\974a97fe1a3f2b97bbf8a754224bc6c4
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\97\974a97fe1a3f2b97bbf8a754224bc6c4
+    projectPath: Library\Artifacts\97\974a97fe1a3f2b97bbf8a754224bc6c4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\99\99a1f07a4acf500e81076f278688c5e9
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\99\99a1f07a4acf500e81076f278688c5e9
+    projectPath: Library\Artifacts\99\99a1f07a4acf500e81076f278688c5e9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\9a\9adbf806ae8f144d43ad615cd47d0233
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\9a\9adbf806ae8f144d43ad615cd47d0233
+    projectPath: Library\Artifacts\9a\9adbf806ae8f144d43ad615cd47d0233
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\9e\9e8b8fd653785d0053eb70e1dc9cc6a3
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\9e\9e8b8fd653785d0053eb70e1dc9cc6a3
+    projectPath: Library\Artifacts\9e\9e8b8fd653785d0053eb70e1dc9cc6a3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: RPG Core Combat\Library\Artifacts\a8\a8e50d0420c633b966f69ab89efe2ddd
     fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\a8\a8e50d0420c633b966f69ab89efe2ddd
     projectPath: Library\Artifacts\a8\a8e50d0420c633b966f69ab89efe2ddd
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: RPG Core Combat\Library\Artifacts\a9\a9b68d14a5104443136ae776212b2d5b
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\a9\a9b68d14a5104443136ae776212b2d5b
-    projectPath: Library\Artifacts\a9\a9b68d14a5104443136ae776212b2d5b
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: RPG Core Combat\Library\Artifacts\b3\b3bc0f913408c5cba52949fefc8f5776
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\b3\b3bc0f913408c5cba52949fefc8f5776
-    projectPath: Library\Artifacts\b3\b3bc0f913408c5cba52949fefc8f5776
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: RPG Core Combat\Library\Artifacts\b4\b487136dea54ea21cb3dab6fd4317c0e
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\b4\b487136dea54ea21cb3dab6fd4317c0e
-    projectPath: Library\Artifacts\b4\b487136dea54ea21cb3dab6fd4317c0e
+  - path: RPG Core Combat\Library\Artifacts\b5\b51d025a721c0fbcb41f0e412d703c99
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\b5\b51d025a721c0fbcb41f0e412d703c99
+    projectPath: Library\Artifacts\b5\b51d025a721c0fbcb41f0e412d703c99
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: RPG Core Combat\Library\Artifacts\c2\c23ab50afcbd881f3c780ed72f00740a
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\c2\c23ab50afcbd881f3c780ed72f00740a
-    projectPath: Library\Artifacts\c2\c23ab50afcbd881f3c780ed72f00740a
+  - path: RPG Core Combat\Library\Artifacts\ba\bad6f0170ecc09a7cb5222c8cf2b9c56
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\ba\bad6f0170ecc09a7cb5222c8cf2b9c56
+    projectPath: Library\Artifacts\ba\bad6f0170ecc09a7cb5222c8cf2b9c56
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: RPG Core Combat\Library\Artifacts\c8\c88796fa2f13583ea3a9939b9c5eab60
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\c8\c88796fa2f13583ea3a9939b9c5eab60
-    projectPath: Library\Artifacts\c8\c88796fa2f13583ea3a9939b9c5eab60
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\bb\bb36d5ed226fca1dd3d41183449fbc5e
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\bb\bb36d5ed226fca1dd3d41183449fbc5e
+    projectPath: Library\Artifacts\bb\bb36d5ed226fca1dd3d41183449fbc5e
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\bd\bde46baf8156b8c0afededeed505e6b6
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\bd\bde46baf8156b8c0afededeed505e6b6
+    projectPath: Library\Artifacts\bd\bde46baf8156b8c0afededeed505e6b6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\bf\bf023b385465b03ae5dc735e8b652866
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\bf\bf023b385465b03ae5dc735e8b652866
+    projectPath: Library\Artifacts\bf\bf023b385465b03ae5dc735e8b652866
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\bf\bface25b2574dc00d09c789be740808e
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\bf\bface25b2574dc00d09c789be740808e
+    projectPath: Library\Artifacts\bf\bface25b2574dc00d09c789be740808e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\bf\bfbc1ab884201ef440fb54822af1a37a
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\bf\bfbc1ab884201ef440fb54822af1a37a
+    projectPath: Library\Artifacts\bf\bfbc1ab884201ef440fb54822af1a37a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\d3\d319bcc618567d00e83e29cb51e03126
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\d3\d319bcc618567d00e83e29cb51e03126
+    projectPath: Library\Artifacts\d3\d319bcc618567d00e83e29cb51e03126
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\d4\d43b423c54f3e361ffd789943c6e7ac5
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\d4\d43b423c54f3e361ffd789943c6e7ac5
+    projectPath: Library\Artifacts\d4\d43b423c54f3e361ffd789943c6e7ac5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\d7\d7ddc2f33b491760c67da7800f6e4505
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\d7\d7ddc2f33b491760c67da7800f6e4505
+    projectPath: Library\Artifacts\d7\d7ddc2f33b491760c67da7800f6e4505
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: RPG Core Combat\Library\Artifacts\de\dee56fb8381f90b93208fea3be6fc3fd
     fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\de\dee56fb8381f90b93208fea3be6fc3fd
     projectPath: Library\Artifacts\de\dee56fb8381f90b93208fea3be6fc3fd
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: RPG Core Combat\Library\Artifacts\e8\e8e465936590dc3053ca4674383765b8
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\e8\e8e465936590dc3053ca4674383765b8
-    projectPath: Library\Artifacts\e8\e8e465936590dc3053ca4674383765b8
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: RPG Core Combat\Library\Artifacts\ea\ea9d8fa6ae50b22ac9be2ac3e818911b
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\ea\ea9d8fa6ae50b22ac9be2ac3e818911b
-    projectPath: Library\Artifacts\ea\ea9d8fa6ae50b22ac9be2ac3e818911b
+  - path: RPG Core Combat\Library\Artifacts\e0\e0c0a8f2e7df2a66a4a95976b2763a7e
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\e0\e0c0a8f2e7df2a66a4a95976b2763a7e
+    projectPath: Library\Artifacts\e0\e0c0a8f2e7df2a66a4a95976b2763a7e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\e1\e12c397e949ba77313e4dd2fd97850c0
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\e1\e12c397e949ba77313e4dd2fd97850c0
+    projectPath: Library\Artifacts\e1\e12c397e949ba77313e4dd2fd97850c0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\e6\e63a0d92b107088d424dd48865845b6f
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\e6\e63a0d92b107088d424dd48865845b6f
+    projectPath: Library\Artifacts\e6\e63a0d92b107088d424dd48865845b6f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\eb\ebc2b136ef150aca06f50e98072699cf
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\eb\ebc2b136ef150aca06f50e98072699cf
+    projectPath: Library\Artifacts\eb\ebc2b136ef150aca06f50e98072699cf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\eb\ebcb527312e64c3c278bed93627a00d9
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\eb\ebcb527312e64c3c278bed93627a00d9
+    projectPath: Library\Artifacts\eb\ebcb527312e64c3c278bed93627a00d9
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -236,20 +506,56 @@ MonoBehaviour:
     fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\ee\ee51c7323f1a5e3e2f2257b0c1afa217
     projectPath: Library\Artifacts\ee\ee51c7323f1a5e3e2f2257b0c1afa217
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RPG Core Combat\Library\Artifacts\ee\ee79976d1e0e9f634c5773016c2c128d
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\ee\ee79976d1e0e9f634c5773016c2c128d
+    projectPath: Library\Artifacts\ee\ee79976d1e0e9f634c5773016c2c128d
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: RPG Core Combat\Library\Artifacts\ef\ef18b3670d263f7a3df41d8225d54831
     fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\ef\ef18b3670d263f7a3df41d8225d54831
     projectPath: Library\Artifacts\ef\ef18b3670d263f7a3df41d8225d54831
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: RPG Core Combat\Library\Artifacts\f0\f02f10a7ecf52bb5b9d431550754d968
     fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\f0\f02f10a7ecf52bb5b9d431550754d968
     projectPath: Library\Artifacts\f0\f02f10a7ecf52bb5b9d431550754d968
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RPG Core Combat\Library\Artifacts\f1\f1383ee8c172a56a0e11435ead592f70
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\f1\f1383ee8c172a56a0e11435ead592f70
+    projectPath: Library\Artifacts\f1\f1383ee8c172a56a0e11435ead592f70
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\f2\f258f70a37786c51e92a7208884d7f1b
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\f2\f258f70a37786c51e92a7208884d7f1b
+    projectPath: Library\Artifacts\f2\f258f70a37786c51e92a7208884d7f1b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\f6\f602d9a6d1047300b81e3ae8062d7f21
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\f6\f602d9a6d1047300b81e3ae8062d7f21
+    projectPath: Library\Artifacts\f6\f602d9a6d1047300b81e3ae8062d7f21
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\f6\f6a81ec95ace971274d2e2b84d182ffe
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\f6\f6a81ec95ace971274d2e2b84d182ffe
+    projectPath: Library\Artifacts\f6\f6a81ec95ace971274d2e2b84d182ffe
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\Artifacts\f8\f81950af24fa8653f7e1c33de222cd63
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\Artifacts\f8\f81950af24fa8653f7e1c33de222cd63
+    projectPath: Library\Artifacts\f8\f81950af24fa8653f7e1c33de222cd63
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: RPG Core Combat\Library\CurrentLayout-default.dwlt
     fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\CurrentLayout-default.dwlt
     projectPath: Library\CurrentLayout-default.dwlt
@@ -316,6 +622,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: RPG Core Combat\Library\ShaderCache\EditorEncounteredVariants
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\ShaderCache\EditorEncounteredVariants
+    projectPath: Library\ShaderCache\EditorEncounteredVariants
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: RPG Core Combat\Library\SourceAssetDB
     fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
@@ -328,63 +640,87 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: RPG Core Combat\Library\StateCache\PrefabStageHierarchy\5b\5bd43802f34b7de5798eaf4427f20171.json
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\StateCache\PrefabStageHierarchy\5b\5bd43802f34b7de5798eaf4427f20171.json
+    projectPath: Library\StateCache\PrefabStageHierarchy\5b\5bd43802f34b7de5798eaf4427f20171.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RPG Core Combat\Library\StateCache\PrefabStageHierarchy\ac\ac003ab7c797138e0467453105e0b660.json
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\StateCache\PrefabStageHierarchy\ac\ac003ab7c797138e0467453105e0b660.json
+    projectPath: Library\StateCache\PrefabStageHierarchy\ac\ac003ab7c797138e0467453105e0b660.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+    projectPath: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RPG Core Combat\Library\StateCache\SceneView\a8\a8308a80d2aafee8800365b60ed896f5.json
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Library\StateCache\SceneView\a8\a8308a80d2aafee8800365b60ed896f5.json
+    projectPath: Library\StateCache\SceneView\a8\a8308a80d2aafee8800365b60ed896f5.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RPG Core Combat\Logs\ApiUpdaterCheck.txt
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Logs\ApiUpdaterCheck.txt
+    projectPath: Logs\ApiUpdaterCheck.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: RPG Core Combat\Logs\AssetImportWorker0.log
     fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Logs\AssetImportWorker0.log
     projectPath: Logs\AssetImportWorker0.log
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: RPG Core Combat\Logs\AssetImportWorker0-prev.log
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Logs\AssetImportWorker0-prev.log
-    projectPath: Logs\AssetImportWorker0-prev.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: RPG Core Combat\Logs\AssetImportWorker1.log
     fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Logs\AssetImportWorker1.log
     projectPath: Logs\AssetImportWorker1.log
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: RPG Core Combat\Logs\AssetImportWorker1-prev.log
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Logs\AssetImportWorker1-prev.log
-    projectPath: Logs\AssetImportWorker1-prev.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: RPG Core Combat\Logs\AssetImportWorker2.log
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Logs\AssetImportWorker2.log
-    projectPath: Logs\AssetImportWorker2.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: RPG Core Combat\Logs\AssetImportWorker3.log
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Logs\AssetImportWorker3.log
-    projectPath: Logs\AssetImportWorker3.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: RPG Core Combat\Logs\AssetImportWorker4.log
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Logs\AssetImportWorker4.log
-    projectPath: Logs\AssetImportWorker4.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: RPG Core Combat\Logs\shadercompiler-AssetImportWorker0.log
     fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Logs\shadercompiler-AssetImportWorker0.log
     projectPath: Logs\shadercompiler-AssetImportWorker0.log
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: RPG Core Combat\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Logs\shadercompiler-UnityShaderCompiler.exe1.log
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Logs\shadercompiler-UnityShaderCompiler.exe1.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe1.log
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Logs\shadercompiler-UnityShaderCompiler.exe2.log
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Logs\shadercompiler-UnityShaderCompiler.exe2.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe2.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: RPG Core Combat\Temp\__Backupscenes\0.backup
     fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\__Backupscenes\0.backup
     projectPath: Temp\__Backupscenes\0.backup
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Temp\ApiUpdater_CheckMovedFrom5428ddce97c1d054983e6363f1dd89cf
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\ApiUpdater_CheckMovedFrom5428ddce97c1d054983e6363f1dd89cf
+    projectPath: Temp\ApiUpdater_CheckMovedFrom5428ddce97c1d054983e6363f1dd89cf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Temp\ApiUpdater_CheckMovedFrombdb7b2bfcef826e41bdbc429d1a2d236
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\ApiUpdater_CheckMovedFrombdb7b2bfcef826e41bdbc429d1a2d236
+    projectPath: Temp\ApiUpdater_CheckMovedFrombdb7b2bfcef826e41bdbc429d1a2d236
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Temp\ApiUpdater_CheckMovedFromf8e33f946a3279d4c8a00a4175b53672
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\ApiUpdater_CheckMovedFromf8e33f946a3279d4c8a00a4175b53672
+    projectPath: Temp\ApiUpdater_CheckMovedFromf8e33f946a3279d4c8a00a4175b53672
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -406,99 +742,105 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: RPG Core Combat\Temp\UnityTempFile-0edac697d8689b44895ba15b98ccc546
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-0edac697d8689b44895ba15b98ccc546
-    projectPath: Temp\UnityTempFile-0edac697d8689b44895ba15b98ccc546
+  - path: RPG Core Combat\Temp\UnityTempFile-00763150d7433304ea607e63589da621
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-00763150d7433304ea607e63589da621
+    projectPath: Temp\UnityTempFile-00763150d7433304ea607e63589da621
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: RPG Core Combat\Temp\UnityTempFile-0f1922863af46af4ea069d9bd893ad35
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-0f1922863af46af4ea069d9bd893ad35
-    projectPath: Temp\UnityTempFile-0f1922863af46af4ea069d9bd893ad35
+  - path: RPG Core Combat\Temp\UnityTempFile-1a69018f9139cec4485c73295d20e74c
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-1a69018f9139cec4485c73295d20e74c
+    projectPath: Temp\UnityTempFile-1a69018f9139cec4485c73295d20e74c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: RPG Core Combat\Temp\UnityTempFile-33d0c421e66e6fb4fbc2a45150290699
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-33d0c421e66e6fb4fbc2a45150290699
-    projectPath: Temp\UnityTempFile-33d0c421e66e6fb4fbc2a45150290699
+  - path: RPG Core Combat\Temp\UnityTempFile-279d4fd8229eb87408cd5917d417c23a
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-279d4fd8229eb87408cd5917d417c23a
+    projectPath: Temp\UnityTempFile-279d4fd8229eb87408cd5917d417c23a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: RPG Core Combat\Temp\UnityTempFile-366825ca079ed274eaf1292ded657429
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-366825ca079ed274eaf1292ded657429
-    projectPath: Temp\UnityTempFile-366825ca079ed274eaf1292ded657429
+  - path: RPG Core Combat\Temp\UnityTempFile-295048acca1d93c4d953b425312c40e9
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-295048acca1d93c4d953b425312c40e9
+    projectPath: Temp\UnityTempFile-295048acca1d93c4d953b425312c40e9
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: RPG Core Combat\Temp\UnityTempFile-379884d6bcbb5a34c947bd4c1edadb6b
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-379884d6bcbb5a34c947bd4c1edadb6b
-    projectPath: Temp\UnityTempFile-379884d6bcbb5a34c947bd4c1edadb6b
+  - path: RPG Core Combat\Temp\UnityTempFile-40d9a4374c8562346a5f1abeb7471f18
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-40d9a4374c8562346a5f1abeb7471f18
+    projectPath: Temp\UnityTempFile-40d9a4374c8562346a5f1abeb7471f18
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: RPG Core Combat\Temp\UnityTempFile-484ca0999dbcf944dbb96b79da150869
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-484ca0999dbcf944dbb96b79da150869
-    projectPath: Temp\UnityTempFile-484ca0999dbcf944dbb96b79da150869
+  - path: RPG Core Combat\Temp\UnityTempFile-52306ef4805e5f048a8c624b9f22dc9c
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-52306ef4805e5f048a8c624b9f22dc9c
+    projectPath: Temp\UnityTempFile-52306ef4805e5f048a8c624b9f22dc9c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: RPG Core Combat\Temp\UnityTempFile-627c671cd5a0040478b5a5765786e136
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-627c671cd5a0040478b5a5765786e136
-    projectPath: Temp\UnityTempFile-627c671cd5a0040478b5a5765786e136
+  - path: RPG Core Combat\Temp\UnityTempFile-54a9f460ede79804baf20224feb71038
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-54a9f460ede79804baf20224feb71038
+    projectPath: Temp\UnityTempFile-54a9f460ede79804baf20224feb71038
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: RPG Core Combat\Temp\UnityTempFile-62e6773f4da9fca4f918abd7c042f4da
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-62e6773f4da9fca4f918abd7c042f4da
-    projectPath: Temp\UnityTempFile-62e6773f4da9fca4f918abd7c042f4da
+  - path: RPG Core Combat\Temp\UnityTempFile-655e03d336764dc49a63e78f67a924b1
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-655e03d336764dc49a63e78f67a924b1
+    projectPath: Temp\UnityTempFile-655e03d336764dc49a63e78f67a924b1
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: RPG Core Combat\Temp\UnityTempFile-638a875c7c8d09749aabf0123a84910e
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-638a875c7c8d09749aabf0123a84910e
-    projectPath: Temp\UnityTempFile-638a875c7c8d09749aabf0123a84910e
+  - path: RPG Core Combat\Temp\UnityTempFile-6dcf7740940aba440a0919a6d5759a64
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-6dcf7740940aba440a0919a6d5759a64
+    projectPath: Temp\UnityTempFile-6dcf7740940aba440a0919a6d5759a64
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: RPG Core Combat\Temp\UnityTempFile-86924740813e20c41a83aad361d8e83b
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-86924740813e20c41a83aad361d8e83b
-    projectPath: Temp\UnityTempFile-86924740813e20c41a83aad361d8e83b
+  - path: RPG Core Combat\Temp\UnityTempFile-933c96966fe6f3047961abdacd5fe706
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-933c96966fe6f3047961abdacd5fe706
+    projectPath: Temp\UnityTempFile-933c96966fe6f3047961abdacd5fe706
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: RPG Core Combat\Temp\UnityTempFile-90822afe16edf7d45bf04dfde10fb16f
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-90822afe16edf7d45bf04dfde10fb16f
-    projectPath: Temp\UnityTempFile-90822afe16edf7d45bf04dfde10fb16f
+  - path: RPG Core Combat\Temp\UnityTempFile-9dd6a694eec0fc84c87cbfea7593341e
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-9dd6a694eec0fc84c87cbfea7593341e
+    projectPath: Temp\UnityTempFile-9dd6a694eec0fc84c87cbfea7593341e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: RPG Core Combat\Temp\UnityTempFile-aa501520b37e436468854b62750d4dc1
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-aa501520b37e436468854b62750d4dc1
-    projectPath: Temp\UnityTempFile-aa501520b37e436468854b62750d4dc1
+  - path: RPG Core Combat\Temp\UnityTempFile-a27cff0bd21667d4eb64a129f7a6fa99
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-a27cff0bd21667d4eb64a129f7a6fa99
+    projectPath: Temp\UnityTempFile-a27cff0bd21667d4eb64a129f7a6fa99
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: RPG Core Combat\Temp\UnityTempFile-bbc752fe522255b448d1043cdcdc1346
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-bbc752fe522255b448d1043cdcdc1346
-    projectPath: Temp\UnityTempFile-bbc752fe522255b448d1043cdcdc1346
+  - path: RPG Core Combat\Temp\UnityTempFile-a9c98cc437229594da7792a2fc4e24a4
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-a9c98cc437229594da7792a2fc4e24a4
+    projectPath: Temp\UnityTempFile-a9c98cc437229594da7792a2fc4e24a4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: RPG Core Combat\Temp\UnityTempFile-bc3bc3e3f5f610440918a0460e1733ad
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-bc3bc3e3f5f610440918a0460e1733ad
-    projectPath: Temp\UnityTempFile-bc3bc3e3f5f610440918a0460e1733ad
+  - path: RPG Core Combat\Temp\UnityTempFile-be63348bca8a0914e82b128f4ad9b379
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-be63348bca8a0914e82b128f4ad9b379
+    projectPath: Temp\UnityTempFile-be63348bca8a0914e82b128f4ad9b379
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: RPG Core Combat\Temp\UnityTempFile-ea8f6bda60f0cb34191c10630d08cb7b
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-ea8f6bda60f0cb34191c10630d08cb7b
-    projectPath: Temp\UnityTempFile-ea8f6bda60f0cb34191c10630d08cb7b
+  - path: RPG Core Combat\Temp\UnityTempFile-cdb197d2f8b4352408ae9794f9743d3b
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-cdb197d2f8b4352408ae9794f9743d3b
+    projectPath: Temp\UnityTempFile-cdb197d2f8b4352408ae9794f9743d3b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: RPG Core Combat\Temp\UnityTempFile-fa51049873590fa47ba62303105a2e8b
-    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-fa51049873590fa47ba62303105a2e8b
-    projectPath: Temp\UnityTempFile-fa51049873590fa47ba62303105a2e8b
+  - path: RPG Core Combat\Temp\UnityTempFile-fa371f6e8b4ec74458eae6e86a23cb01
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-fa371f6e8b4ec74458eae6e86a23cb01
+    projectPath: Temp\UnityTempFile-fa371f6e8b4ec74458eae6e86a23cb01
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RPG Core Combat\Temp\UnityTempFile-fb33ce2c4d9b12349ad256696354eb9b
+    fullPath: D:\Bagus\Belajar\Udemy\Unity\RPG Core Combat course\RPG Core Combat\Temp\UnityTempFile-fb33ce2c4d9b12349ad256696354eb9b
+    projectPath: Temp\UnityTempFile-fb33ce2c4d9b12349ad256696354eb9b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
