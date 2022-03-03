@@ -1,22 +1,31 @@
 using UnityEngine;
 using RPG.Movement;
 using RPG.Core;
+using System;
 
 namespace RPG.Combat
 {
     public class Fighter : MonoBehaviour, IAction
     {
-        [SerializeField] float weaponRange = 2f;
         [SerializeField] float timeBetweenAttacks = 1f;
-        [SerializeField] float damageWeapon = 5f;
-        [SerializeField] GameObject weaponPrefab = null ;
-        [SerializeField] Transform handTransform = null;
+        [SerializeField] Weapon defaultWeapon = null;
+        [SerializeField] Transform rightHandTransform = null;
+        [SerializeField] Transform leftHandTransform = null;
+        
         Health target;
         float timeSinceLastAttack = Mathf.Infinity;
         Mover mover;
+        Weapon currentWeapon = null;
         private void Start() {
             mover = GetComponent<Mover>();
-            SpawnWeapon();           
+            EquipWeapon(defaultWeapon);           
+        }
+
+        public void EquipWeapon(Weapon weapon)
+        {
+            currentWeapon = weapon;
+            Animator animator = GetComponent<Animator>();
+            weapon.Spawn(animator, rightHandTransform, leftHandTransform);
         }
 
         private void Update()
@@ -38,10 +47,7 @@ namespace RPG.Combat
             }
         }
 
-        void SpawnWeapon()
-        {
-            Instantiate(weaponPrefab, handTransform);
-        }
+        
 
         private void AttackBehaviour()
         {
@@ -66,12 +72,12 @@ namespace RPG.Combat
         void Hit()
         {
             if(target == null) return;
-            target.TakeDamage(damageWeapon);
+            target.TakeDamage(currentWeapon.GetWeaponDamage());
         }
 
         private bool GetInRange()
         {
-            return Vector3.Distance(transform.position, target.transform.position) < weaponRange;
+            return Vector3.Distance(transform.position, target.transform.position) < currentWeapon.GetWeaponRange();
         }
 
         public void Attack(GameObject combatTarget)
