@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using RPG.Core;
 using UnityEngine;
 
 namespace RPG.Combat
@@ -9,13 +10,12 @@ namespace RPG.Combat
     {
 
 
-        [SerializeField] Transform target = null;
-        [SerializeField] float speed = 2f;
         
-        void Start()
-        {
-            
-        }
+        [SerializeField] float speed = 2f;
+        Health target = null;
+        float damage = 0f;
+
+        
 
         // Update is called once per frame
         void Update()
@@ -25,14 +25,27 @@ namespace RPG.Combat
             transform.Translate( Vector3.forward * speed * Time.deltaTime);
         }
 
+        public void SetTarget(Health target, float damage)
+        {
+            this.target = target;
+            this.damage = damage;
+        }
         private Vector3 GetAimLocation()
         {
             CapsuleCollider capsuleCollider = target.GetComponent<CapsuleCollider>();
             if(capsuleCollider == null)
             {
-                return target.position;
+                return target.transform.position;
             }
-            return target.position + Vector3.up * capsuleCollider.height / 2;
+            return target.transform.position + Vector3.up * capsuleCollider.height / 2;
+        }
+
+        private void OnTriggerEnter(Collider other) 
+        {
+            if(other.GetComponent<Health>() != target) return;
+
+            target.TakeDamage(damage);
+            Destroy(gameObject);
         }
     }
 }

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2022-03-03T09:48:13.310+07:00
-  initializedAtString: 2022-03-03T09:48:13.310+07:00
+  lastUpdatedAtString: 2022-03-04T10:00:59.658+07:00
+  initializedAtString: 2022-03-04T10:00:59.658+07:00
   currentGitRemote:
     name: origin
     url: https://github.com/Rizqial5/RPG-Core-Combat-course.git
