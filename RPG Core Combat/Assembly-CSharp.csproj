@@ -59,7 +59,11 @@
      <Compile Include="Assets\Script\Combat\weaponPickup.cs" />
      <Compile Include="Assets\Script\Core\persistentObject.cs" />
      <Compile Include="Assets\Script\Control\PatrolPath.cs" />
+     <Compile Include="Assets\Script\Core\DestroyAfterEffect.cs" />
+     <Compile Include="Assets\Script\Stats\BaseStats.cs" />
+     <Compile Include="Assets\Script\Stats\CharacterEnum.cs" />
      <None Include="Assets\Asset Packs\Synty - Polygon Student Sample\README - Usage Rights for these assets.txt" />
+     <None Include="Assets\Asset Packs\SimpleFX\Materials\UnlitVertexColour_Alpha.shader" />
      <None Include="Assets\Asset Packs\Animations by Explosive\README - Usage Rights for these assets 1.txt" />
     <Reference Include="UnityEngine">
         <HintPath>D:/Game/Unity/2020.3.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

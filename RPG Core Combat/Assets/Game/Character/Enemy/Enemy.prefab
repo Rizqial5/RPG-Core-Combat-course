@@ -1,5 +1,21 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!54 &823098953483960579
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6489407690576490563}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!136 &-4587611803264368569
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -57,22 +73,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 20
---- !u!54 &823098953483960579
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6489407690576490563}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1001 &3007925445674424422
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -151,6 +151,10 @@ PrefabInstance:
     - target: {fileID: 3669502051823587961, guid: 5724feb9335276b478ba41e60ef338e8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6446626910934747258, guid: 5724feb9335276b478ba41e60ef338e8, type: 3}
+      propertyPath: characterClass
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8336529769511757861, guid: 5724feb9335276b478ba41e60ef338e8, type: 3}
       propertyPath: m_Name

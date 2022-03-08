@@ -20,6 +20,7 @@ namespace RPG.Combat
         {
 
             DestroyOldWeapon(rightHand,leftHand);
+            var overrideController = animator.runtimeAnimatorController as AnimatorOverrideController;
 
             if(weaponPrefab != null)
             {
@@ -31,6 +32,10 @@ namespace RPG.Combat
             if (weaponOverride != null)
             {
                 animator.runtimeAnimatorController = weaponOverride;
+            }
+            else if(overrideController != null)
+            {
+                animator.runtimeAnimatorController = overrideController.runtimeAnimatorController;   
             }
             
         }
