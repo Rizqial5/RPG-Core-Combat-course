@@ -9,7 +9,7 @@ namespace RPG.Combat
     {
         [SerializeField] Weapon weapon;
         [SerializeField] float respawnTime = 5;
-        [SerializeField] GameObject gameObject = null;
+        
         Fighter fighter ;
 
 
