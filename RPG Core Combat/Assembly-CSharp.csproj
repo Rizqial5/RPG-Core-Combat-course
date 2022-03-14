@@ -45,11 +45,14 @@
      <Compile Include="Assets\Script\SceneManagement\SavingWrapper.cs" />
      <Compile Include="Assets\Script\Core\IAction.cs" />
      <Compile Include="Assets\Script\Attributes\Health.cs" />
+     <Compile Include="Assets\Script\Stats\ExperienceDisplay.cs" />
      <Compile Include="Assets\Script\Combat\Weapon.cs" />
      <Compile Include="Assets\Script\Saving\ISaveable.cs" />
+     <Compile Include="Assets\Script\Stats\LevelDisplay.cs" />
      <Compile Include="Assets\Script\Stats\Progression.cs" />
      <Compile Include="Assets\Script\Control\PlayerController.cs" />
      <Compile Include="Assets\Script\Movement\Mover.cs" />
+     <Compile Include="Assets\Script\Stats\Stats.cs" />
      <Compile Include="Assets\Script\Core\FollowCamera.cs" />
      <Compile Include="Assets\Script\Combat\Fighter.cs" />
      <Compile Include="Assets\Script\SceneManagement\Fade.cs" />
@@ -66,9 +69,6 @@
      <Compile Include="Assets\Script\Core\persistentObject.cs" />
      <Compile Include="Assets\Script\Stats\BaseStats.cs" />
      <Compile Include="Assets\Script\Control\PatrolPath.cs" />
-     <Compile Include="Assets\Script\Stats\Stats.cs" />
-     <Compile Include="Assets\Script\Stats\ExperienceDisplay.cs" />
-     <Compile Include="Assets\Script\Stats\LevelDisplay.cs" />
      <None Include="Assets\Asset Packs\Synty - Polygon Student Sample\README - Usage Rights for these assets.txt" />
      <None Include="Assets\Asset Packs\SimpleFX\Materials\UnlitVertexColour_Alpha.shader" />
      <None Include="Assets\Asset Packs\Animations by Explosive\README - Usage Rights for these assets 1.txt" />
