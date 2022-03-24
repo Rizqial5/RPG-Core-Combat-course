@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,8 +10,11 @@ namespace RPG.Stats
         [SerializeField] int startingLevel = 1;
         [SerializeField] CharacterClass characterClass;
         [SerializeField] Progression progression = null;
+        [SerializeField] GameObject levelUpParticle = null;
+        [SerializeField] bool shouldUseModifiers = false;
 
         int currentLevel = 0;
+        public event Action onLevelUp;
 
         private void Start() 
         {
@@ -27,15 +31,26 @@ namespace RPG.Stats
             int newLevel = CalculateLevel();
             if(newLevel > currentLevel)
             {
+                currentLevel = newLevel;
                 print("something");
+                LevelUpEffect();
+                onLevelUp();
             }
 
         }
         
         public float GetStat(Stat stat)
         {
-            return progression.GetStats(stat,characterClass, GetLevel());
+            return (GetBaseStat(stat) + GetAdditiveModifier(stat)) * (1 + GetPercentageModifiers(stat)/100);
         }
+
+        
+
+        private float GetBaseStat(Stat stat)
+        {
+            return progression.GetStats(stat, characterClass, GetLevel());
+        }
+
 
         public int GetLevel()
         {
@@ -67,6 +82,41 @@ namespace RPG.Stats
             }
             return penultimateLevel + 1;
             
+        }
+
+        private float GetAdditiveModifier(Stat stat)
+        {
+            if(!shouldUseModifiers) return 0;
+
+            float total = 0;
+            foreach (IModifierProvider provider in GetComponents<IModifierProvider>())
+            {
+                foreach (float modifier in provider.GetAdditiveModifiers(stat))
+                {
+                    total += modifier;
+                }
+            }
+            return total;
+        }
+
+        private float GetPercentageModifiers(Stat stat)
+        {
+            if(!shouldUseModifiers) return 0;
+            
+            float total = 0;
+            foreach (IModifierProvider provider in GetComponents<IModifierProvider>())
+            {
+                foreach (float modifier in provider.GetPercentageModifiers(stat))
+                {
+                    total += modifier;
+                }
+            }
+            return total;
+        }
+
+        private void LevelUpEffect()
+        {
+            Instantiate(levelUpParticle, transform);    
         }
 
         

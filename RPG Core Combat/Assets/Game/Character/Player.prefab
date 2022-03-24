@@ -209,6 +209,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6446626910934747258, guid: 5724feb9335276b478ba41e60ef338e8, type: 3}
+      propertyPath: levelUpParticle
+      value: 
+      objectReference: {fileID: 5686089584827625657, guid: 1153449b3602d004a800d6a209716f3a, type: 3}
+    - target: {fileID: 6446626910934747258, guid: 5724feb9335276b478ba41e60ef338e8, type: 3}
+      propertyPath: shouldUseModifiers
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8209145155373625782, guid: 5724feb9335276b478ba41e60ef338e8, type: 3}
       propertyPath: uniqueIdentifier
       value: player

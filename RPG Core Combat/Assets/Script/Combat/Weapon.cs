@@ -10,6 +10,7 @@ namespace RPG.Combat
         [SerializeField] GameObject weaponPrefab = null ;
         [SerializeField] float weaponDamage = 5f;
         [SerializeField] float weaponRange = 2f;
+        [SerializeField] float percentageBonus = 0;
         [SerializeField] bool isRightHanded = true;
         [SerializeField] Projectile projectile = null;
 
@@ -65,10 +66,10 @@ namespace RPG.Combat
             return projectile != null;
         }
 
-        public void LaunchProjectile(Transform rightHand, Transform leftHand, Health target, GameObject instigator)
+        public void LaunchProjectile(Transform rightHand, Transform leftHand, Health target, GameObject instigator, float damageCalculated)
         {
             Projectile projectileInstance = Instantiate(projectile,GetTransform(rightHand, leftHand).position, Quaternion.identity);
-            projectileInstance.SetTarget(target, instigator,weaponDamage);
+            projectileInstance.SetTarget(target, instigator,damageCalculated);
         }
 
         public float GetWeaponDamage()
@@ -76,6 +77,10 @@ namespace RPG.Combat
             return weaponDamage;
         }
 
+        public float GetPercentageBonus()
+        {
+            return percentageBonus;
+        }
         public float GetWeaponRange()
         {
             return weaponRange;
