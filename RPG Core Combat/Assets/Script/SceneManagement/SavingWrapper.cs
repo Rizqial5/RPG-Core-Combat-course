@@ -12,15 +12,17 @@ namespace RPG.SceneManagement
         SavingSystem savingSystem;
 
         private void Awake() {
+   
             StartCoroutine(LoadLastScene());
+            
         }
         private IEnumerator LoadLastScene() {
-            Fade fade = FindObjectOfType<Fade>();
+            
             savingSystem = GetComponent<SavingSystem>();
-
-            fade.FadeOutImmediate();
             
             yield return savingSystem.LoadLastScene(defaultSave);
+            Fade fade = FindObjectOfType<Fade>();
+            fade.FadeOutImmediate();
             yield return fade.FadeIn(fadeIntime);
 
         }

@@ -60,19 +60,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5be0078a2eca72c4fb4929d95f67ecf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1452704903378496997
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6489407690576490563}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f424bc193577444e9af29a6cb56dbb5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 20
 --- !u!1001 &3007925445674424422
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -80,6 +67,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 289807547636884114, guid: 5724feb9335276b478ba41e60ef338e8, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2829517692993343491, guid: 5724feb9335276b478ba41e60ef338e8, type: 3}
       propertyPath: weapon
       value: 
@@ -165,8 +156,7 @@ PrefabInstance:
       value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 4959305406500603091, guid: 5724feb9335276b478ba41e60ef338e8, type: 3}
-    - {fileID: 4438094195544012163, guid: 5724feb9335276b478ba41e60ef338e8, type: 3}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 5724feb9335276b478ba41e60ef338e8, type: 3}
 --- !u!1 &6489407690576490563 stripped
 GameObject:
