@@ -46,8 +46,11 @@
      <Compile Include="Assets\Script\Core\IAction.cs" />
      <Compile Include="Assets\Script\Attributes\Health.cs" />
      <Compile Include="Assets\Script\Stats\ExperienceDisplay.cs" />
+     <Compile Include="Assets\Script\Core\CameraFacing.cs" />
+     <Compile Include="Assets\Script\UI\Damage Text\DamagedTextSpawner.cs" />
      <Compile Include="Assets\Script\Combat\Weapon.cs" />
      <Compile Include="Assets\Script\Saving\ISaveable.cs" />
+     <Compile Include="Assets\Destroyer.cs" />
      <Compile Include="Assets\Script\Stats\LevelDisplay.cs" />
      <Compile Include="Assets\Script\Stats\Progression.cs" />
      <Compile Include="Assets\Script\Control\PlayerController.cs" />
@@ -57,6 +60,7 @@
      <Compile Include="Assets\Script\Combat\Fighter.cs" />
      <Compile Include="Assets\Script\SceneManagement\Fade.cs" />
      <Compile Include="Assets\Script\Stats\Experience.cs" />
+     <Compile Include="Assets\Script\UI\Damage Text\DamagedText.cs" />
      <Compile Include="Assets\Script\Control\IRaycastable.cs" />
      <Compile Include="Assets\Script\Core\DestroyAfterEffect.cs" />
      <Compile Include="Assets\Script\Saving\SerializeableVector3.cs" />
@@ -73,10 +77,7 @@
      <Compile Include="Assets\Script\Stats\BaseStats.cs" />
      <Compile Include="Assets\Script\Control\CursorType.cs" />
      <Compile Include="Assets\Script\Control\PatrolPath.cs" />
-     <Compile Include="Assets\Script\Core\CameraFacing.cs" />
-     <Compile Include="Assets\Script\UI\Damage Text\DamagedText.cs" />
-     <Compile Include="Assets\Script\UI\Damage Text\DamagedTextSpawner.cs" />
-     <Compile Include="Assets\Destroyer.cs" />
+     <Compile Include="Assets\Script\Attributes\HealthBar.cs" />
      <None Include="Assets\Asset Packs\Synty - Polygon Student Sample\README - Usage Rights for these assets.txt" />
      <None Include="Assets\Asset Packs\SimpleFX\Materials\UnlitVertexColour_Alpha.shader" />
      <None Include="Assets\Asset Packs\Animations by Explosive\README - Usage Rights for these assets 1.txt" />

@@ -131,6 +131,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 248670523, guid: 487e9c9e1d3154d448c34bd39171357d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 490280974}
+    - target: {fileID: 248670523, guid: 487e9c9e1d3154d448c34bd39171357d, type: 3}
       propertyPath: StageScene
       value: 0
       objectReference: {fileID: 0}
@@ -321,6 +325,11 @@ PrefabInstance:
       objectReference: {fileID: 8848379955480663895, guid: 0d9daf284c48cb74ab450553cdbccdf1, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3af5e451a3c1cbf49aef082a914e5a56, type: 3}
+--- !u!1 &490280974 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 993165497069832025, guid: 3af5e451a3c1cbf49aef082a914e5a56, type: 3}
+  m_PrefabInstance: {fileID: 490280973}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1064457127
 GameObject:
   m_ObjectHideFlags: 0
@@ -534,6 +543,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 248670523, guid: 487e9c9e1d3154d448c34bd39171357d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 490280974}
     - target: {fileID: 248670523, guid: 487e9c9e1d3154d448c34bd39171357d, type: 3}
       propertyPath: StageScene
       value: 0

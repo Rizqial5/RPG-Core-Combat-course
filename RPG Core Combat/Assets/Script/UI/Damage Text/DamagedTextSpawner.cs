@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace RPG.UI.DamagedText
 {
@@ -13,6 +14,8 @@ namespace RPG.UI.DamagedText
         {
             
             DamagedText instance = Instantiate<DamagedText>(damagedTextPrefab,transform);
+            instance.SetValue(damageAmount);
+
         }
     }
 }

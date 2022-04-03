@@ -5,6 +5,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.AI;
 using RPG.Saving;
+using RPG.Control;
+using RPG.Core;
 
 namespace RPG.SceneManagement
 {
@@ -17,10 +19,16 @@ namespace RPG.SceneManagement
         [SerializeField] int StageScene;
         [SerializeField] Transform spawnPoint;
         [SerializeField] PortalIdentifier destination;
+        [SerializeField] GameObject player;
 
         [SerializeField] float FadeInTime;
         [SerializeField] float FadeOutTime;
         [SerializeField] float BetweenFadeTime;
+
+        private void Awake() 
+        {
+           
+        }
         private void OnTriggerEnter(Collider other) {
             if (other.tag == "Player")
             {
@@ -32,13 +40,20 @@ namespace RPG.SceneManagement
         private IEnumerator Transition()
         {
             Fade fade = FindObjectOfType<Fade>();
-
             SavingWrapper savingWrapper = FindObjectOfType<SavingWrapper>();
+            PlayerController player = GameObject.FindWithTag("Player").GetComponent<PlayerController>();
+            player.enabled = false;
+            
 
             DontDestroyOnLoad(gameObject);
             yield return fade.FadeOut(FadeOutTime);
             savingWrapper.Save();
+
             yield return SceneManager.LoadSceneAsync(StageScene);
+            PlayerController newPlayer = GameObject.FindWithTag("Player").GetComponent<PlayerController>();
+            newPlayer.enabled = false;
+            
+
             savingWrapper.Load();
             
             
@@ -48,8 +63,9 @@ namespace RPG.SceneManagement
             savingWrapper.Save();
            
             yield return new WaitForSeconds(BetweenFadeTime);
-            yield return fade.FadeIn(FadeInTime);
+            fade.FadeIn(FadeInTime);
 
+            newPlayer.enabled = true;
             Destroy(gameObject);
             
         }
