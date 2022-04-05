@@ -39,6 +39,7 @@
      <Compile Include="Assets\Script\Control\AIController.cs" />
      <Compile Include="Assets\Script\Saving\SaveableEntity.cs" />
      <Compile Include="Assets\Script\Saving\SavingSystem.cs" />
+     <Compile Include="Assets\Script\Attributes\HealthBar.cs" />
      <Compile Include="Assets\Script\Core\ActionScheduler.cs" />
      <Compile Include="Assets\Script\Combat\CombatTarget.cs" />
      <Compile Include="Assets\Script\SceneManagement\Portal.cs" />
@@ -48,10 +49,11 @@
      <Compile Include="Assets\Script\Stats\ExperienceDisplay.cs" />
      <Compile Include="Assets\Script\Core\CameraFacing.cs" />
      <Compile Include="Assets\Script\UI\Damage Text\DamagedTextSpawner.cs" />
-     <Compile Include="Assets\Script\Combat\Weapon.cs" />
+     <Compile Include="Assets\Script\Combat\WeaponConfig.cs" />
      <Compile Include="Assets\Script\Saving\ISaveable.cs" />
      <Compile Include="Assets\Destroyer.cs" />
      <Compile Include="Assets\Script\Stats\LevelDisplay.cs" />
+     <Compile Include="Assets\Script\Combat\Weapon.cs" />
      <Compile Include="Assets\Script\Stats\Progression.cs" />
      <Compile Include="Assets\Script\Control\PlayerController.cs" />
      <Compile Include="Assets\Script\Movement\Mover.cs" />
@@ -77,10 +79,12 @@
      <Compile Include="Assets\Script\Stats\BaseStats.cs" />
      <Compile Include="Assets\Script\Control\CursorType.cs" />
      <Compile Include="Assets\Script\Control\PatrolPath.cs" />
-     <Compile Include="Assets\Script\Attributes\HealthBar.cs" />
      <None Include="Assets\Asset Packs\Synty - Polygon Student Sample\README - Usage Rights for these assets.txt" />
      <None Include="Assets\Asset Packs\SimpleFX\Materials\UnlitVertexColour_Alpha.shader" />
+     <None Include="Assets\Asset Packs\EmaceArt\Slavic World Free\Plugin\Grass.shader" />
      <None Include="Assets\Asset Packs\Animations by Explosive\README - Usage Rights for these assets 1.txt" />
+     <None Include="Assets\Asset Packs\EmaceArt\Slavic World Free\URP_Support\URP Info.txt" />
+     <None Include="Assets\EmaceArt\Slavic World Free\Thanks and checkout this\Info.txt" />
     <Reference Include="UnityEngine">
         <HintPath>D:/Game/Unity/2020.3.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

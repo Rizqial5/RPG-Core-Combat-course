@@ -61,6 +61,8 @@ MonoBehaviour:
   - type: 5
     texture: {fileID: 2800000, guid: 13b47201502803547bf2c87d10639cb9, type: 3}
     hotspot: {x: 0, y: 0}
+  maxNavMeshDistance: 1
+  maxNavMeshPath: 25
 --- !u!114 &8293860145368304230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,6 +154,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 289807547636884114, guid: 5724feb9335276b478ba41e60ef338e8, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2829517692993343491, guid: 5724feb9335276b478ba41e60ef338e8, type: 3}
       propertyPath: weapon
       value: 
@@ -163,7 +169,7 @@ PrefabInstance:
     - target: {fileID: 2829517692993343491, guid: 5724feb9335276b478ba41e60ef338e8, type: 3}
       propertyPath: defaultWeapon
       value: 
-      objectReference: {fileID: 11400000, guid: a8be88320dd1c4948abf2a7bdeedfb1b, type: 2}
+      objectReference: {fileID: 11400000, guid: 625e51d0b7fc4fb45aa845f55ac0b204, type: 2}
     - target: {fileID: 2829517692993343491, guid: 5724feb9335276b478ba41e60ef338e8, type: 3}
       propertyPath: handTransform
       value: 
@@ -235,6 +241,10 @@ PrefabInstance:
     - target: {fileID: 6446626910934747258, guid: 5724feb9335276b478ba41e60ef338e8, type: 3}
       propertyPath: shouldUseModifiers
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7011054651970037968, guid: 5724feb9335276b478ba41e60ef338e8, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8209145155373625782, guid: 5724feb9335276b478ba41e60ef338e8, type: 3}
       propertyPath: uniqueIdentifier

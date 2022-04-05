@@ -4,6 +4,7 @@ using RPG.Core;
 using RPG.Movement;
 using RPG.Attributes;
 using GameDevTV.Utils;
+using System;
 
 namespace RPG.Control
 {
@@ -12,6 +13,8 @@ namespace RPG.Control
         [SerializeField] float distance = 5f;
         [SerializeField] float suspiciusTime = 3f;
         [SerializeField] float dwellTime = 3f;
+        [SerializeField] float aggroTime = 3f;
+        [SerializeField] float shoutRadius = 5f;
         [SerializeField] PatrolPath patrolPath;
         [SerializeField] float waypointTolerance = 1f;
         [Range(0,1)]
@@ -27,6 +30,7 @@ namespace RPG.Control
         
         float timeSinceSawPlayer = Mathf.Infinity;
         float timeSinceAtWaypoint = Mathf.Infinity;
+        float timeAgrro = Mathf.Infinity;
         int currentWaypointIndex = 0;
 
         private void Awake() 
@@ -51,7 +55,7 @@ namespace RPG.Control
         {
             if (health.isDead()) return;
 
-            if (InAttackRangeOfPlayer() && fighter.CanAttack(player))
+            if (IsAggrevate() && fighter.CanAttack(player))
             {
                 
                 AttackBehaviour();
@@ -70,10 +74,16 @@ namespace RPG.Control
 
         }
 
+        public void Aggrevate()
+        {
+            timeAgrro = 0;
+        }
+
         private void UpdateTimers()
         {
             timeSinceSawPlayer += Time.deltaTime;
             timeSinceAtWaypoint += Time.deltaTime;
+            timeAgrro += Time.deltaTime; 
         }
 
         private void PatrolBehaviour()
@@ -120,14 +130,30 @@ namespace RPG.Control
         private void AttackBehaviour()
         {
             timeSinceSawPlayer = 0;
-            
             fighter.Attack(player);
+
+            AggrevateNearbyEnemies();
         }
 
-        private bool InAttackRangeOfPlayer()
+        private void AggrevateNearbyEnemies()
+        {
+            RaycastHit[] hits = Physics.SphereCastAll(transform.position, shoutRadius, Vector3.up, 0);
+
+            foreach (RaycastHit hit in hits)
+            {
+               AIController ai = hit.collider.GetComponent<AIController>();
+
+               if(ai == null) continue;
+
+               ai.Aggrevate();
+            }
+        }
+
+        private bool IsAggrevate()
         {
             float DistancePlayer = Vector3.Distance(player.transform.position, transform.position);
-            return DistancePlayer < distance;
+            
+            return DistancePlayer < distance || timeAgrro < aggroTime;
         }
 
         private void OnDrawGizmosSelected() {

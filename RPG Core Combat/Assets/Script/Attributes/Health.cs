@@ -37,6 +37,8 @@ namespace RPG.Attributes
             healthPoints.ForceInit();
         }
 
+       
+
         private void OnEnable() {
             GetComponent<BaseStats>().onLevelUp += RegenerationHealth;
         }
@@ -65,7 +67,6 @@ namespace RPG.Attributes
         
         public void TakeDamage(GameObject instigator, float damage)
         {
-            // print(gameObject.name + " took damage : " + damage);
             
             healthPoints.value = Mathf.Max(healthPoints.value - damage,0);
 
@@ -83,6 +84,12 @@ namespace RPG.Attributes
 
         public float GetHealthPoints()
         {
+            return healthPoints.value;
+        }
+
+        public float Heal(float restoreHealth)
+        {
+            healthPoints.value = Mathf.Min(healthPoints.value + restoreHealth ,MaxHealthPoints());
             return healthPoints.value;
         }
 
